@@ -5,6 +5,9 @@
   "repository": "git@github.com:PablloZz/dune-uniswap.git",
   "author": "Paul <84803938+PablloZz@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "yarn ts-node ./src/index.ts"
+  },
   "dependencies": {
     "@duneanalytics/client-sdk": "^0.2.0",
     "dotenv": "^16.4.5"
